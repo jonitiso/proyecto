@@ -1,0 +1,12 @@
+<h2>Estudiantes del Colegio</h2>
+<table>
+<% @consulta.each do |estu| %>
+<tr></tr>
+<td class="tabla-est"><%= estu.id %>   </td>
+<td class="tabla-est"><%= estu.nombre %>   </td>
+<td class="tabla-est"><%= estu.correo %>   </td>
+<td class="tabla-est"><%= estu.tipo %></td>
+
+</td>
+<% end %>
+</table>
